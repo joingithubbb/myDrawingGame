@@ -1,0 +1,13 @@
+{
+  "main.css": "/myDrawingGame/static/css/main.b6978e48.chunk.css",
+  "main.js": "/myDrawingGame/static/js/main.03df2a62.chunk.js",
+  "main.js.map": "/myDrawingGame/static/js/main.03df2a62.chunk.js.map",
+  "static/js/1.edf6011e.chunk.js": "/myDrawingGame/static/js/1.edf6011e.chunk.js",
+  "static/js/1.edf6011e.chunk.js.map": "/myDrawingGame/static/js/1.edf6011e.chunk.js.map",
+  "runtime~main.js": "/myDrawingGame/static/js/runtime~main.9e01ccab.js",
+  "runtime~main.js.map": "/myDrawingGame/static/js/runtime~main.9e01ccab.js.map",
+  "static/css/main.b6978e48.chunk.css.map": "/myDrawingGame/static/css/main.b6978e48.chunk.css.map",
+  "index.html": "/myDrawingGame/index.html",
+  "precache-manifest.1a7f1f1ae721e61791ccd568b5b320ba.js": "/myDrawingGame/precache-manifest.1a7f1f1ae721e61791ccd568b5b320ba.js",
+  "service-worker.js": "/myDrawingGame/service-worker.js"
+}
