@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/myDrawingGame/static/js/runtime~main.9e01ccab.js"
   },
   {
-    "revision": "03df2a623e798df85d0f",
-    "url": "/myDrawingGame/static/js/main.03df2a62.chunk.js"
+    "revision": "5a2e0a34725944ba60ba",
+    "url": "/myDrawingGame/static/js/main.5a2e0a34.chunk.js"
   },
   {
     "revision": "edf6011e07dec272dbd2",
     "url": "/myDrawingGame/static/js/1.edf6011e.chunk.js"
   },
   {
-    "revision": "03df2a623e798df85d0f",
+    "revision": "5a2e0a34725944ba60ba",
     "url": "/myDrawingGame/static/css/main.b6978e48.chunk.css"
   },
   {
-    "revision": "31e116aa0596dd36507e807da9d159dd",
+    "revision": "03818006412a80f071c2460c34d228a0",
     "url": "/myDrawingGame/index.html"
   }
 ];
