@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/myDrawingGame/precache-manifest.1a7f1f1ae721e61791ccd568b5b320ba.js"
+  "/myDrawingGame/precache-manifest.8dd0b199c574e48c7a34130dad3fe51f.js"
 );
 
 workbox.clientsClaim();
