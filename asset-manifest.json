@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/myDrawingGame/static/css/main.6fdd7596.chunk.css",
-    "main.js": "/myDrawingGame/static/js/main.09cab34c.chunk.js",
-    "main.js.map": "/myDrawingGame/static/js/main.09cab34c.chunk.js.map",
+    "main.js": "/myDrawingGame/static/js/main.33fa2c2f.chunk.js",
+    "main.js.map": "/myDrawingGame/static/js/main.33fa2c2f.chunk.js.map",
     "runtime-main.js": "/myDrawingGame/static/js/runtime-main.04272628.js",
     "runtime-main.js.map": "/myDrawingGame/static/js/runtime-main.04272628.js.map",
-    "static/js/2.1c1acb9c.chunk.js": "/myDrawingGame/static/js/2.1c1acb9c.chunk.js",
-    "static/js/2.1c1acb9c.chunk.js.map": "/myDrawingGame/static/js/2.1c1acb9c.chunk.js.map",
+    "static/js/2.76dc1547.chunk.js": "/myDrawingGame/static/js/2.76dc1547.chunk.js",
+    "static/js/2.76dc1547.chunk.js.map": "/myDrawingGame/static/js/2.76dc1547.chunk.js.map",
     "index.html": "/myDrawingGame/index.html",
-    "precache-manifest.a7bb0028e95aa83d27b6f13849fa0976.js": "/myDrawingGame/precache-manifest.a7bb0028e95aa83d27b6f13849fa0976.js",
+    "precache-manifest.b44a8f993033fbdb6a071f1a773de137.js": "/myDrawingGame/precache-manifest.b44a8f993033fbdb6a071f1a773de137.js",
     "service-worker.js": "/myDrawingGame/service-worker.js",
     "static/css/main.6fdd7596.chunk.css.map": "/myDrawingGame/static/css/main.6fdd7596.chunk.css.map",
-    "static/js/2.1c1acb9c.chunk.js.LICENSE": "/myDrawingGame/static/js/2.1c1acb9c.chunk.js.LICENSE"
+    "static/js/2.76dc1547.chunk.js.LICENSE": "/myDrawingGame/static/js/2.76dc1547.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.04272628.js",
-    "static/js/2.1c1acb9c.chunk.js",
+    "static/js/2.76dc1547.chunk.js",
     "static/css/main.6fdd7596.chunk.css",
-    "static/js/main.09cab34c.chunk.js"
+    "static/js/main.33fa2c2f.chunk.js"
   ]
 }
