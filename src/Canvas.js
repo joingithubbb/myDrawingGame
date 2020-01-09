@@ -32,7 +32,8 @@ const Canvas = React.forwardRef((props, ref) => {
 
     getPrediction(ref, props.model).then(prediction => {
       if (labels[prediction[0]] === props.currentLabel) {
-        props.pointEvaluation(true); // a point is given to the player, because the prediction matches the wanted label
+        props.pointEvaluation("plus"); // a point is given to the player, because the prediction matches the wanted label
+        console.log("canvas point");
       }
     });
   };

@@ -46,19 +46,25 @@ function Game(props) {
     }
 
     function pointEvaluation(scoreOfTheRound) {
-        if (scoreOfTheRound === true) {
+        if (scoreOfTheRound === "plus") {
             incrementLabel();
             resetTheCountdown();
             incrementTheRound();
             setDisplayPoint(true); // For the display of the "Nice Job!"/"Oh man you can do better!"
-            props.setThePoints(true);
+            props.setThePoints("plus");
+            console.log("POOIIIINNNTTTTT");
         }
-        else {
+
+        else if (scoreOfTheRound === "minus") {
             incrementLabel();
             resetTheCountdown();
             incrementTheRound();
             setDisplayPoint(false); // For the display of the "Nice Job!"/"Oh man you can do better!"
-            props.setThePoints(false);
+            props.setThePoints("minus");
+        }
+        else {
+            setDisplayPoint(null);
+            props.setThePoints("reset");
         }
     }
 
@@ -67,8 +73,12 @@ function Game(props) {
 
     }
 
+    // Hier Harry's recommendation implementieren
+    // call setResetCountdown + setRound
     function RouteToGame() {
-        window.location.replace('./game');
+        setResetCountdown(true);
+        setRound(1);
+        pointEvaluation("reset");
     }
 
 

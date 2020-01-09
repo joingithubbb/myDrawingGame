@@ -1,5 +1,5 @@
 import React, { useReducer } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import { Switch } from "react-router";
 import { Game } from "./Game";
 import { Home } from "./Home";
@@ -17,6 +17,8 @@ function transferPointsReducer(points, action) {
       return points + 1;
     case "decrement":
       return points - 1;
+    case "reset":
+      return points = 0;
     default:
   }
 }
@@ -29,12 +31,16 @@ function GameEngine() {
   var [points, setPoints] = useReducer(transferPointsReducer, initialState);
 
   function setThePoints(increase) {
-    if (increase === true) {
+    if (increase === "plus") {
       setPoints({ transferredPoint: "increment" });
     }
 
-    else {
+    else if (increase === "minus") {
       setPoints({ transferredPoint: "decrement" });
+    }
+
+    else if (increase === "reset") {
+      setPoints({ transferredPoint: "reset" });
     }
 
   }

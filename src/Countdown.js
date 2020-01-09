@@ -11,7 +11,7 @@ function Countdown(props) {
   useEffect(() => {
     const interval = setInterval(() => {
       if (countdownNumber === 0) {
-        props.pointEvaluation(false); // no point is given for this round, because the time is up
+        props.pointEvaluation("minus"); // no point is given for this round, because the time is up
         setCountdownNumber(gameSettings.roundTime); // reset of the countdown time
       }
       else {
